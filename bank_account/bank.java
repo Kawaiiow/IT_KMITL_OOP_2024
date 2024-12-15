@@ -16,16 +16,16 @@ public class bank {
         opt = stdin.next().charAt(0);
         switch (opt) {
             case 'A':
-                System.out.println("Your total money in one year = " + (int)(dep * 1.015));
+                System.out.println("Your total money in one year = " + (float)(dep * 1.015));
                 break;
             case 'B':
-                System.out.println("Your total money in one year = " + (int)(dep * 1.020));
+                System.out.println("Your total money in one year = " + (dep * 1.020));
                 break;
             case 'C':
-                System.out.println("Your total money in one year = " + (int)(dep * 1.015));
+                System.out.println("Your total money in one year = " + (dep * 1.015));
                 break;
             case 'X':
-                System.out.println("Your total money in one year = " + (int)(dep * 1.05));
+                System.out.println("Your total money in one year = " + (dep * 1.05));
                 break;
             default:
                 break;
