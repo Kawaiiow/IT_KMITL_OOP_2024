@@ -80,7 +80,7 @@ public class Employee
 	{
 		String	fmt = "My name is %s. \n" + //
 						"I have %d energy left.\n" + //
-						"I have a balance of %f baht.\n";
-		return (String.format(fmt ,this.name, this.energy, this.wallet.getBalance()));
+						"I have a balance of " + this.wallet.getBalance() + " baht.";
+		return (String.format(fmt ,this.name, this.energy));
 	}
 }
