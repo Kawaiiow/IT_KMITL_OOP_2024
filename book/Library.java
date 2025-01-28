@@ -61,7 +61,7 @@ public class Library
 		System.out.println();
 	}
 
-	public void checkBookAvailability(int slot)
+	public void checkBookAvailAbility(int slot)
 	{
 		if (slot == 1 && book1 != null)
 			System.out.println(book1.title + " is available.");
